@@ -11,10 +11,10 @@ This notebook demonstrates how to use the Visual Layer API to search for images 
 ### 2. Parse Exported JSON into CSV
 If you need to process metadata exported from Visual Layer, this notebook helps convert JSON files into CSV format.
 - 📘 [Parse JSON Export](notebooks/Parse%20exported%20json%20into%20csv/parse_json_export.ipynb)
+- 📘 [Parse Image Data, Duplicates and Mislabels](notebooks/Export%20via%20api/parse_issues.ipynb)
 
 ### 3. Export Data via API
 These notebooks show how to extract data using Visual Layer's API.
-- 📘 [Parse Issues](notebooks/Export%20via%20api/parse_issues.ipynb)
 - 📘 [API Simplified Python](notebooks/Export%20via%20api/api_simplified_python.ipynb)
 
 
