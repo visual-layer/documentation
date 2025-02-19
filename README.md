@@ -4,6 +4,8 @@ Welcome to Visual Layer! This guide will help you quickly get started with using
 
 ## Notebooks & Tutorials
 
+
+Finding and Exporting data:
 ### 1. Image Search via API
 This notebook demonstrates how to use the Visual Layer API to search for images based on similarity.
 - 📘 [Visual Layer API Example](notebooks/Image%20search%20via%20api/Visual%20Layer%20api%20example.ipynb)
@@ -17,17 +19,11 @@ These notebooks show how to extract data using Visual Layer's API.
 - 📘 [Parse Issues](notebooks/Export%20via%20api/parse_issues.ipynb)
 - 📘 [API Simplified Python](notebooks/Export%20via%20api/api_simplified_python.ipynb)
 
-# XML to CSV Conversion
+Preparing Visual Layer input data:
+### 4. Creating Input Bounding Box Data: from voc2012 to Visual Layer Objec Detection
 
 This tutorial explains how to convert XML annotations into a Visual Layer Bounding Box format. The script provided parses a fixed XML string and extracts object detection bounding boxes, storing them in a CSV file.
 
-### Output Format
-| filename  | col_x | row_y | width | height | label  | xml_annotation |
-|-----------|-------|-------|-------|--------|--------|---------------|
-| 00149.jpg | 1718  | 1043  | 27    | 38     | person | [Full XML data] |
-| 00149.jpg | 1296  | 1036  | 39    | 38     | car    | [Full XML data] |
-
-For more details, refer to the script in the repository.
 
 ## How to Use
 1. Download the repository or access the notebooks directly.
